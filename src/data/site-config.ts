@@ -1,12 +1,7 @@
-import avatar from '../assets/images/avatar.jpg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
     website: 'https://bowentew.github.io',
-    avatar: {
-        src: avatar,
-        alt: 'Bowen TU'
-    },
     title: 'Bowen TU',
     subtitle: 'A software engineer at Kimi.ai',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
@@ -40,28 +35,28 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/riesigdick/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://x.com/beauwen_tu'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/bowen-tu-936145334/'
+        },
+        {
+            text: 'Facebook',
+            href: 'https://www.facebook.com/profile.php?id=61550253801860'
+        },
+        {
+            text: 'GitHub',
+            href: 'https://github.com/BowenTew'
         }
     ],
     hero: {
@@ -79,7 +74,7 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        enabled: true,
+        enabled: false,
         title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {

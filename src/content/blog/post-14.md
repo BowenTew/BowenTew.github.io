@@ -4,8 +4,7 @@ excerpt: Choosing the right framework for your web project is a critical decisio
 publishDate: 'Jan 11 2024'
 isFeatured: true
 tags:
-  - Web
-  - Guide
+  - Demo
 seo:
   image:
     src: '../../assets/images/post-14.jpg'
